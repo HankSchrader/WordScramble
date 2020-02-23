@@ -13,6 +13,8 @@
 		F94F19D12400B8E700CA4E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F19D02400B8E700CA4E86 /* Assets.xcassets */; };
 		F94F19D42400B8E700CA4E86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F19D32400B8E700CA4E86 /* Preview Assets.xcassets */; };
 		F94F19D72400B8E700CA4E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F19D52400B8E700CA4E86 /* LaunchScreen.storyboard */; };
+		F94F19DF240201C200CA4E86 /* Contents.json.html in Resources */ = {isa = PBXBuildFile; fileRef = F94F19DE240201C200CA4E86 /* Contents.json.html */; };
+		F94F19E12402053F00CA4E86 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F94F19E02402053F00CA4E86 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F94F19D32400B8E700CA4E86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F94F19D62400B8E700CA4E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94F19D82400B8E700CA4E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94F19DE240201C200CA4E86 /* Contents.json.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contents.json.html; sourceTree = "<group>"; };
+		F94F19E02402053F00CA4E86 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 				F94F19CC2400B8E400CA4E86 /* SceneDelegate.swift */,
 				F94F19CE2400B8E400CA4E86 /* ContentView.swift */,
 				F94F19D02400B8E700CA4E86 /* Assets.xcassets */,
+				F94F19DE240201C200CA4E86 /* Contents.json.html */,
 				F94F19D52400B8E700CA4E86 /* LaunchScreen.storyboard */,
 				F94F19D82400B8E700CA4E86 /* Info.plist */,
+				F94F19E02402053F00CA4E86 /* start.txt */,
 				F94F19D22400B8E700CA4E86 /* Preview Content */,
 			);
 			path = WordScramble;
@@ -136,6 +142,8 @@
 				F94F19D72400B8E700CA4E86 /* LaunchScreen.storyboard in Resources */,
 				F94F19D42400B8E700CA4E86 /* Preview Assets.xcassets in Resources */,
 				F94F19D12400B8E700CA4E86 /* Assets.xcassets in Resources */,
+				F94F19DF240201C200CA4E86 /* Contents.json.html in Resources */,
+				F94F19E12402053F00CA4E86 /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
