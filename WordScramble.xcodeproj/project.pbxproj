@@ -13,6 +13,8 @@
 		5334B81925F0669900FD1FCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334B80425F0669700FD1FCC /* ContentView.swift */; };
 		5334B81A25F0669900FD1FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5334B80525F0669900FD1FCC /* Assets.xcassets */; };
 		5334B81B25F0669900FD1FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5334B80525F0669900FD1FCC /* Assets.xcassets */; };
+		537276E9265E712A003133F1 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 537276E8265E712A003133F1 /* start.txt */; };
+		537276EA265E712A003133F1 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 537276E8265E712A003133F1 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +26,9 @@
 		5334B81225F0669900FD1FCC /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5334B81425F0669900FD1FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5334B81525F0669900FD1FCC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		537276E8265E712A003133F1 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = "../../HackingWithSwift-main/SwiftUI/project5-files/start.txt"; sourceTree = "<group>"; };
 		538B274725F257D5001AA25D /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		538B274D25F25845001AA25D /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
-		538B275025F258C5001AA25D /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 		5334B7FD25F0669700FD1FCC = {
 			isa = PBXGroup;
 			children = (
-				538B275025F258C5001AA25D /* start.txt */,
 				5334B80225F0669700FD1FCC /* Shared */,
 				5334B80C25F0669900FD1FCC /* iOS */,
 				5334B81325F0669900FD1FCC /* macOS */,
@@ -61,6 +62,7 @@
 		5334B80225F0669700FD1FCC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				537276E8265E712A003133F1 /* start.txt */,
 				5334B80325F0669700FD1FCC /* WordScrambleApp.swift */,
 				5334B80425F0669700FD1FCC /* ContentView.swift */,
 				5334B80525F0669900FD1FCC /* Assets.xcassets */,
@@ -175,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5334B81A25F0669900FD1FCC /* Assets.xcassets in Resources */,
+				537276E9265E712A003133F1 /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5334B81B25F0669900FD1FCC /* Assets.xcassets in Resources */,
+				537276EA265E712A003133F1 /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
