@@ -22,11 +22,14 @@ struct ContentView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                     .autocapitalization(.none)
                     .padding()
-            List(usedWords, id: \.self) {
-               
-                Image(systemName: "\($0.count).circle").background(Color.green).background(Circle())
-                Text($0)
-            }
+                List(usedWords, id: \.self) { word in
+                    HStack {
+                        Image(systemName: "\(word.count).circle")
+                        Text(word)
+                    }
+                    .accessibilityElement(children: .ignore)
+                    .accessibility(label: Text("\(word), \(word.count) letters"))
+                }
             }.navigationBarItems(leading: Button(action: startGame) {
                 Text("Restart")}, trailing: Text("Score: \(score)"))
       
@@ -105,8 +108,6 @@ struct ContentView: View {
         errorTitle = title
         errorMessage = message
         showError = true
-
-        
     }
     func startGame() {
         let stringPath = Bundle.main.path(forResource: "start", ofType: "txt")
